@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaichaly Web</title>
+
+    <!-- Boostrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@400;700&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Header Start -->
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
+        <div class="d-flex justify-content-between align-item-center">
+            <a href="/" class="text-decoration-none text-white fs-5 fw-bold">ExtraSugar</a>
+
+            <div>
+
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- Flyout Navigation Start -->
+
+    <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+
+        <div class="dropdown-nav__container container-xxl d-flex align-items-start align-items-md-center">
+            <div class="row align-items-start">
+                <div class="col-12 col-sm-4 mt-4">
+                    <a href="#" class="row text-decoration-none">
+
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="/img/ice_small.jpg" alt="Ice Cream" class="img-fluid" width="533"
+                                height="746" Loading="lazy">
+                        </div>
+
+                        <div class="col-10">
+
+                            <h3>Ice Cream</h3>
+                            <p>For kids of all ages</p>
+                            <p>See More <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="col-12 col-sm-4 mt-4">
+                    <a href="#" class="row text-decoration-none">
+
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="/img/heart_small.jpg" alt="mm" class="img-fluid" width="533"
+                                height="746" Loading="lazy">
+                        </div>
+
+                        <div class="col-10">
+
+                            <h3>M&M'S</h3>
+                            <p>For kids of all ages</p>
+                            <p>See More <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <div class="col-12 col-sm-4 mt-4">
+                    <a href="#" class="row text-decoration-none">
+
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="/img/small_loloi.jpg" alt="Macaroon" class="img-fluid" width="533"
+                                height="746" Loading="lazy">
+                        </div>
+
+                        <div class="col-10">
+
+                            <h3>Lollipop</h3>
+                            <p>For kids of all ages</p>
+                            <p>See More <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+
+
+
+            <button class="navbar-toggler  dropdown-nav__closeNavBtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Flyout Navigation End -->
+
+    <!-- Hero Start -->
+    <section class="hero">
+        <div class="hero__overlay">
+
+        </div>
+        <video playsinline="playsinline" autoplay="muted" muted="muted" Loop="loop" Loading="lazy" class="hero__video">
+            <source src="img/mixkit-ice-cream-with-chocolate-syrup-composition-10371.mp4" type="video/mp4">
+
+
+        </video>
+
+
+        <div class="hero__content h-100 container-custom position-relative">
+            <div class="d-flex h-100 align-items-center hero__content-width">
+
+                <div class="text-white">
+                    <h1 class="hero__heading fw-bold mb-4">Experience Something Sweet Today!</h1>
+                    <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis impedit
+                        similique enim
+                        repudiandae voluptas! </p>
+                    <a href="#" class="mb-2 btn btn-lg btn-outline-light" role="button">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <a href="#scroll-down" class="hero__scroll-btn">
+            Explore <i class="bi bi-arrow-down-short"></i>
+        </a>
+    </section>
+
+    <!-- Hero End -->
+    <a id="scroll-down"></a>
+
+
+
+    <!-- section one start -->
+    <section class="steps container-custom">
+
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+                <img src="img/macaroon.jpg" alt="Macaroon" class="img-fluid pb-4 steps__section-thumbnail"
+                    width="533" height="746" Loading="lazy">
+            </div>
+
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                <div class="steps__content-width">
+                    <span>01</span>
+                    <h1 class="h2 mb-4">Macaron</h1>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis soluta
+                        molestiae earum nulla autem debitis assumenda unde reiciendis pariatur possimus quos, ad dicta
+                        quaerat delectus nesciunt, consequuntur ullam. Tenetur, totam.</p>
+                    <a href="#" class="text-decoration-none">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- section one End -->
+
+
+
+    <!-- section one start -->
+    <section class="steps steps--background ">
+        <div class="container-custom">
+
+            <div class="row">
+                <div class="col-12 col-sm-6 d-md-flex justify-content-md-center order-sm-1">
+                    <img src="img/lolipop.jpg" alt="Lollipop" class="img-fluid pb-4 steps__section-thumbnail" width="533" height="746"
+                        Loading="lazy">
+                </div>
+
+                <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                    <div class="steps__content-width">
+                        <span>02</span>
+                        <h1 class="h2 mb-4">Lollipop</h1>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis soluta
+                            molestiae earum nulla autem debitis assumenda unde reiciendis pariatur possimus quos, ad
+                            dicta
+                            quaerat delectus nesciunt, consequuntur ullam. Tenetur, totam.</p>
+                        <a href="#" class="text-decoration-none">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section one End -->
+
+
+
+
+    <!-- section one start -->
+    <section class="steps container-custom">
+
+        <div class="row">
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+                <img src="img/donets.jpg" alt="Donents"
+                    class="img-fluid pb-4 steps__section-thumbnail" width="533" height="746" Loading="lazy">
+            </div>
+
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+                <div class="steps__content-width">
+                    <span>03</span>
+                    <h1 class="h2 mb-4">Donents</h1>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis soluta
+                        molestiae earum nulla autem debitis assumenda unde reiciendis pariatur possimus quos, ad dicta
+                        quaerat delectus nesciunt, consequuntur ullam. Tenetur, totam.</p>
+                    <a href="#" class="text-decoration-none">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- section one End -->
+
+
+    <!-- section with 3 colums starts-->
+    <section class="footer_color text-white py-4">
+
+        <div class="container-custom my-4">
+            <div class="row">
+                <div class="col-12 col-sm-4 mb-4">
+                    <img src="img/ice_small.jpg" class="mb-4 img-fluid" alt="ice cream" width="441"
+                        height="248" Loading="lazy">
+                    <h3>Ice Cream</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates libero rerum sit, ducimus
+                        eveniet animi facere? Ab accusamus reprehenderit dolores suscipit nostrum reiciendis odio vitae
+                        nemo. Reiciendis autem distinctio animi.</p>
+                </div>
+
+                <div class="col-12 col-sm-4 mb-4">
+                    <img src="img/heart_small.jpg" class="mb-4 img-fluid" alt="Health Benifits" width="441"
+                        height="248" Loading="lazy">
+                    <h3>M&M's</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates libero rerum sit, ducimus
+                        eveniet animi facere? Ab accusamus reprehenderit dolores suscipit nostrum reiciendis odio vitae
+                        nemo. Reiciendis autem distinctio animi.</p>
+                </div>
+
+                <div class="col-12 col-sm-4 mb-4">
+                    <img src="img/small_loloi.jpg" class="mb-4 img-fluid" alt="Lollipop"
+                        width="441" height="248" Loading="lazy">
+                    <h3>Lollipop</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates libero rerum sit, ducimus
+                        eveniet animi facere? Ab accusamus reprehenderit dolores suscipit nostrum reiciendis odio vitae
+                        nemo. Reiciendis autem distinctio animi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section with 3 colums starts-->
+
+    <!-- Footer start -->
+    <footer class="footer ">
+        <div class="container-custom d-flex justify-content-between align-items-center py-3 border-highlight">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="me-2 text-muited text-white text-decoration-none">
+                    <i class="bi bi-cup"></i>
+                    <span>&copy; 2022 ExtraSugar</span>
+                </a>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+                <li class="ms-3"><a class="text-muited text-white" href="#"><i class="bi bi-twitter"></i></a></li>
+                <li class="ms-3"><a class="text-muited text-white" href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-muited text-white" href="#"><i class="bi bi-facebook"></i></a></li>
+
+            </ul>
+        </div>
+
+    </footer>
+    <!-- Footer start -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

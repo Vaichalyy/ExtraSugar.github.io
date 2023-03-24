@@ -1,0 +1,3 @@
+p-3 padding 1rm left right bottom
+
+"/" main page
